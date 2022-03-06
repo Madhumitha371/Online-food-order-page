@@ -3,6 +3,22 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+@media(max-width:500px){
+    .img-res{
+        width:60px;
+        height:60px;
+        text-align:center;
+    }
+    
+    .food-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+     .*{
+         text-align:center;
+    }
+}
 
 .navbar{
     display: flex;
