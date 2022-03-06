@@ -3,20 +3,31 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-@media(max-width:500px){
+@media(max-width:576px){
     .img-res{
-        width:60px;
-        height:60px;
-        text-align:center;
+        display: none;
+       
+        
     }
-    
+
     .food-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     }
-     .*{
-         text-align:center;
+        display: flex;
+        flex-direction: column;
+    }
+    .food-card{
+        margin: 15px;
+    }
+     .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:786px){
+    .class1{
+        text-align: center;
+    }
+    .img-res{
+       display: none;
     }
 }
 
