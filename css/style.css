@@ -184,3 +184,26 @@
 .top-fs{
     font-size: 20px;
 }
+.a-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-btn{
+    background-color:rgb(10, 10, 10) ;
+    padding: 10px 35px 10px 35px;
+    display: inline-block;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 12px;
+   
+   
+}
+.a-btn:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+
+}
